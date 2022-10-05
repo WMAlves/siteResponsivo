@@ -2,14 +2,53 @@
 
 
 .logo{
-    max-width: 200px;
+    max-width: 10%;
 }
 
-#lancamentos img{
-    max-width: 200px;
-}
 
 
 footer .logo{
     max-width: 50px;
+}
+
+/*menu*/
+.menu {
+
+    
+
+}
+
+
+/*DESTAQUE*/
+
+.destaque{
+    background: rgb(233, 231, 231);
+}
+
+.destaque img{
+
+    max-width: 100%;
+}
+
+.destaque h1{
+    text-align: center;
+}
+
+/*LANÇAMENTOS*/
+
+.lancamentos img{
+max-width: 100%;
+}
+.lancamentos a{
+    text-decoration: none;
+}
+
+/*PLATAFORMA*/
+.plataforma img{
+
+    max-width: 100%;
+    
+}
+.plataforma text{
+    text-align: center;
 }

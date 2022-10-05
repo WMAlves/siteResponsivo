@@ -16,19 +16,21 @@
 <body>
 
     <header class="container header">
-
-        <img src="/imagens/logo.jpg" alt="Logo Game Portal" class="logo">
-
-        <nav class="nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Destaque</a>
-            <a class="nav-link" href="#">lanaçamentos</a>
-            <a class="nav-link" href="">plataformas</a>
-            <a class="nav-link" href="">publicidade</a>
-        </nav>
-
+    <section class="row menu" >
+        <div class="col-3 col-sm-6">
+            <img src="/imagens/logo.jpg" alt="Logo Game Portal" class="logo">
+        </div>
+        <div class="col-12 col-sm-7">
+            <nav class="nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Destaque</a>
+                <a class="nav-link" href="#">lanaçamentos</a>
+                <a class="nav-link" href="">plataformas</a>
+                <a class="nav-link" href="">publicidade</a>
+            </nav>
+        </div>
         <input type="search" class="pesquisa" placeholder="Pesquisar games">
-
+    </section>
 
 
     </header>
@@ -36,25 +38,34 @@
     <main class="container">
 
         <section class="row destaque">
-            <div class="col-12">
+            <h1>Destaques</h1>
+            <div class="col-sm-8 col-sm-6">
                 <img src="/imagens/elden-ring.jpg" alt="Jogo destaque elden-ring">
-                <h1>ELDEN RING</h1>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, deserunt,
-                    quae quis voluptates iusto, fuga assumenda facilis possimus iste necessitatibus
-                    veniam animi repellat vero? Explicabo ab commodi fugit cupiditate, vitae eveniet
-                    magnam illo voluptatem vero beatae perferendis impedit quod reiciendis ad fuga enim possimus quis
-                    perspiciatis cum corporis culpa exercitationem.</h1>
-                </p>
+                <div>
+                    <h2>ELDEN RING</h2>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, deserunt,
+                        quae quis voluptates iusto, fuga assumenda facilis possimus iste necessitatibus
+                        veniam animi repellat vero? Explicabo ab commodi fugit cupiditate, vitae eveniet
+                        magnam illo voluptatem vero beatae perferendis impedit quod reiciendis ad fuga enim possimus quis
+                        perspiciatis cum corporis culpa exercitationem.</h1>
+                    </p>
+                </div>
             </div>
 
         </section>
 
-        <section class="row lancametos">
+        <section class="row lancamentos">
+            <h1>Lançamentos</h1>
             <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                <img src="/imagens/cyberpunk.jpg" alt="">
+                <a href="#""><img src="/imagens/cyberpunk.jpg" alt="">
+                <h2>Cyberpunk 2077</h2>
+                <p>Lançado pela CDProject, mesma produtora do vencendo de jogo do ano The Witcher III - Wild Hunter</p>
+            </a>
             </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3">                
                 <img src="/imagens/sekiro.jpeg" alt="">
+                <h2>Sekiro: Shadows Die Twice</h2>
+                <p>A FromSoftware além do lançamento do possivel jogo do ano Elden Ring decide fazer o Remaster de um dos jogos soulslike do seu acervo.</p>
             </div>
             <div class="col-12 col-sm-6 col-md-3 col-lg-3">
                 <img src="/imagens/nierautomata.jpg" alt="">
@@ -76,14 +87,23 @@
         </section>
 
         <section class="row plataforma">
+
+            <H1>PLATAFORMAS</H1>
             <div class="col12 col-sm-6 col-md-3 col-lg-3">
-                <img src="/imagens/sekiro.jpeg" alt="">
+                <h1>SONY</h1>
+                <img src="/imagens/sonyps.png" alt="SONY Playstation">
             </div>
             <div class="col12 col-sm-6 col-md-3 col-lg-3">
-                <img src="/imagens/sekiro.jpeg" alt="">
+                <h1>XBOX</h1>
+                <img src="/imagens/xbox.png" alt="Microsoft Xbox">
             </div>
             <div class="col12 col-sm-6 col-md-3 col-lg-3">
-                <img src="/imagens/sekiro.jpeg" alt="">
+                <h1>NINTENDO</h1>
+                <img src="imagens/nintendo.png" alt="NIntendo">
+            </div>
+            <div class="col12 col-sm6 col-md-3 col-lg-3">
+                <h1>STEAM</h1>
+                <img src="/imagens/steam.png" alt="Logo PC">
             </div>
 
         </section>
