@@ -46,10 +46,13 @@ max-width: 100%;
 /*PLATAFORMA*/
 .plataforma img{
 
-    max-width: 50%;
+    max-width: 40%;
     
 }
 .plataforma text{
     text-align: center;
-    padding: 500px;
+    
+}
+.publicidade{
+    background: black;
 }
