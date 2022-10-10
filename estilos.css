@@ -1,21 +1,52 @@
 
-
+header{
+    background-color: rgb(237, 245, 242);
+    margin-bottom: 20px;
+}
 
 .logo{
     max-width: 10%;
 }
 
 
-
+footer{
+    margin-top: 20px;
+    background-color: rgb(237, 245, 242);
+}
 footer .logo{
-    max-width: 50px;
+    align-items:flex-end;
+    max-width: 30px;
+    
+    
 }
 
-/*menu*/
-.menu {
+.footer_txt{
+    padding: 20px ;
+    text-align: center;
+}
 
-    
 
+/*MENU*/
+.menu_nav {
+     
+    margin-top: 30px;
+
+}
+
+.menu_nav a{
+    background-color: rgb(5, 5, 5);
+
+}
+
+.menu_nav a:hover{
+
+    background-color: ;
+
+}
+
+
+.active{
+    background-color:aliceblue;
 }
 
 
@@ -23,6 +54,7 @@ footer .logo{
 
 .destaque{
     background: rgb(233, 231, 231);
+    margin-bottom: 20px;
 }
 
 .destaque img{
@@ -35,6 +67,9 @@ footer .logo{
 }
 
 /*LANÇAMENTOS*/
+.lancamentos{
+    margin-bottom: 20px;
+}
 
 .lancamentos img{
 max-width: 100%;
@@ -43,7 +78,18 @@ max-width: 100%;
     text-decoration: none;
 }
 
+.lancamentos select{
+    margin-bottom: 20px;
+}
+.lancamentos iframe{
+    width: 300;
+    height: 240;
+}
+
+
 /*PLATAFORMA*/
+
+.plataforma{margin-bottom: 20px;}
 .plataforma img{
 
     max-width: 40%;
@@ -55,4 +101,7 @@ max-width: 100%;
 }
 .publicidade{
     background: black;
+}
+.sobre{
+    padding: 20px;
 }

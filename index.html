@@ -15,23 +15,26 @@
 
 <body>
 
-    <header class="container header">
-        <section class="row menu">
-            <div class="col-3 col-sm-6">
+    <header class="container_header">_
+        <div class="row">
+            <div class="col-3 col-sm-3 col-md-4">
                 <img src="/imagens/logo.jpg" alt="Logo Game Portal" class="logo">
             </div>
-            <div class="col-12 col-sm-7">
+            <div class="col-6 col-sm-6 col-md-4 " menu_nav>
                 <nav class="nav">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                     <a class="nav-link" href="#">Destaque</a>
-                    <a class="nav-link" href="#">lanaçamentos</a>
+                    <a class="nav-link" href="#">lançamentos</a>
                     <a class="nav-link" href="">plataformas</a>
                     <a class="nav-link" href="">publicidade</a>
-
                 </nav>
+
             </div>
-            <input type="search" class="pesquisa" placeholder="Pesquisar games">
-        </section>
+            <div class="col-3 col-sm-3 col-md-4">
+                <input type="search" class="pesquisa" placeholder="Pesquisar games">
+            </div>
+        </div>
+
 
 
     </header>
@@ -40,55 +43,99 @@
 
         <section class="row destaque">
             <h1>Destaques</h1>
+            
             <div class="col-sm-8 col-sm-6">
                 <img src="/imagens/elden-ring.jpg" alt="Jogo destaque elden-ring">
-                <div>
+            </div>
+            <div class="col-sm-4">
                     <h2>ELDEN RING</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, deserunt,
+                    <p> <strong>Sobre: </strong> ipsum dolor sit amet, consectetur adipisicing elit. Dolore, deserunt,
                         quae quis voluptates iusto, fuga assumenda facilis possimus iste necessitatibus
                         veniam animi repellat vero? Explicabo ab commodi fugit cupiditate, vitae eveniet
                         magnam illo voluptatem vero beatae perferendis impedit quod reiciendis ad fuga enim possimus
                         quis
-                        perspiciatis cum corporis culpa exercitationem.</h1>
-                    </p>
+                        perspiciatis cum corporis culpa exercitationem.
+                    </p>  
+                    <div class="row destaqueJogo">
+                        <div class="col-6">
+                            <p><strong>Publicado por:</strong>Bandai</p>
+                        </div>
+                        <div class="col-6">
+                            <p><strong>Lançamento: </strong>Fev, 2022</p>
+                        </div>
+                    </div>
+                    <div class="row destaquePlataforma"><p><strong>Plataformas: </strong>PC, PS5, XBOX, Nintendo Swtich</p></div>
+                    <div class="row destaqueGenero"><p><strong>Genero: </strong>RPG, Ação</p></div>
+                    <div class="row destaqueAvaliacao"><p><strong>Avaliação</strong> 92</p></div>
+            </div>
+
+        </section>
+
+        <div class="row lancamentos">
+            <div class="col-6 lancamentos_titulo">
+                <h1>Lançamentos</h1>
+            </div>
+            <div class="col-3 ordem">
+                <label for="Ordem:Popularidade"></label>
+                <select name="Popularidade" id="">
+                    <option value="">Ordem: Populardidade</option>
+                    <option value="">Ordem: Data Lançamento</option>
+                    <option value="">Ordem: Plataformas</option>
+                </select>
+            </div>
+            <div class="col-3 genero">
+                <label for="Genero:Todos"></label>
+                <select name="Popularidade" id="">
+                    <option value="">Ordem: RPG</option>
+                    <option value="">Ordem: FPS</option>
+                    <option value="">Ordem: Ação</option>
+                </select>
+            </div>
+            <div class="row">
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <h2>Diablo IV</h2>                    
+                        <iframe src="https://www.youtube.com/embed/tflKwXOESyc" title="" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam placeat aperiam vitae labore
+                        asperiores quo et assumenda nulla, alias eos.</p>
                 </div>
-            </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">                    
+                    <h2>Elden Ring</h2>
+                    <iframe src="https://www.youtube.com/embed/E3Huy2cdih0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptate commodi aliquam obcaecati nisi rem provident atque qui enim quos.</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">                   
+                    <h2>Zelda:BOTW</h2>
+                    <iframe src="https://www.youtube.com/embed/zw47_q9wbBE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus reiciendis atque et praesentium consequatur nisi, quasi harum cumque vel odio? </p>
+                </div>
 
-        </section>
-
-        <section class="row lancamentos">
-            <h1>Lançamentos</h1>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                <a href="#""><img src=" /imagens/cyberpunk.jpg" alt="">
+            
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">                  
                     <h2>Cyberpunk 2077</h2>
-                    <p>Lançado pela CDProject, mesma produtora do vencendo de jogo do ano The Witcher III - Wild Hunter
-                    </p>
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                <img src="/imagens/sekiro.jpeg" alt="">
-                <h2>Sekiro: Shadows Die Twice</h2>
-                <p>A FromSoftware além do lançamento do possivel jogo do ano Elden Ring decide fazer o Remaster de um
-                    dos jogos soulslike do seu acervo.</p>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                <img src="/imagens/nierautomata.jpg" alt="">
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                <img src="/imagens/cyberpunk.jpg" alt="">
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                <img src="/imagens/elden-ring.jpg" alt="">
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                <img src="/imagens/sekiro.jpeg" alt="">
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                <img src="/imagens/cyberpunk.jpg" alt="">
-            </div>
+                    <iframe src="https://www.youtube.com/embed/qIcTM8WXFjk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Lançado pela CDProject, mesma produtora do vencendo de jogo do ano The Witcher III - Wild Hunter</p>
+                    </a>
+                </div>
 
 
-        </section>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">                   
+                    <h2>Sekiro</h2>
+                    <iframe src="https://www.youtube.com/embed/Rx8pbCN1OcU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>A FromSoftware além do lançamento do possivel jogo do ano Elden Ring decide fazer o Remaster de
+                        um
+                        dos jogos soulslike do seu acervo.</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">                    
+                    <h2>Nier Automata</h2>
+                    <iframe src="https://www.youtube.com/embed/07lrqoNzw7Y" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia voluptate eius. Porro
+                        voluptatibus quia esse sint! Tempora, numquam iusto?</p>
+                </div>
+            
+
+        </div>
 
         <section class="row plataforma">
 
@@ -99,37 +146,78 @@
             <div class="col12 col-sm-6 col-md-3 col-lg-3">
                 <!--<h1>SONY</h1>-->
                 <img src="/imagens/sonyps.png" alt="SONY Playstation">
+                <h2>Principais jogos</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
             </div>
             <div class="col12 col-sm-6 col-md-3 col-lg-3">
                 <!--<h1>XBOX</h1>-->
                 <img src="/imagens/xbox.png" alt="Microsoft Xbox">
+                <h2>Principais jogos</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
             </div>
             <div class="col12 col-sm-6 col-md-3 col-lg-3">
                 <!--<h1>NINTENDO</h1>-->
                 <img src="imagens/nintendo.png" alt="NIntendo">
+                <h2>Principais jogos</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
             </div>
             <div class="col12 col-sm6 col-md-3 col-lg-3">
                 <!--<h1>STEAM</h1>-->
                 <img src="/imagens/steam.png" alt="Logo PC">
+                <h2>Principais jogos</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
             </div>
 
         </section>
 
-        <section class="row publicidade">
-            <h1>Publisher</h1>          
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, optio! Adipisci perferendis, molestias et non
+        <div>
+            <h1>Publisher</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, optio! Adipisci perferendis,
+                molestias et non
                 autem sit omnis accusantium voluptates.</p>
-
-        </section>
+        </div>
 
         <section class="row sobre">
-            <h1>Sobre</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, unde esse. Debitis nisi maxime quibusdam
-                ducimus laborum, minus magni. Quaerat.</p>
+            <div class="col-8 col-sm-12 col-md-12" sobre>
+                <h1>Sobre</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime possimus fugit, ex minima iure
+                    eveniet tempore minus
+                    laborum dolore ipsam id officiis, enim exercitationem commodi architecto porro! Et voluptate natus
+                    repudiandae
+                    voluptates culpa? Itaque perferendis autem dolores unde numquam similique impedit error nam illum
+                    pariatur corporis
+                    ullam, ducimus, alias eos?</p>
+            </div>
+            <div class="col-4 col-sm-12 col md 12">
+                <h1>Editorial</h1>
+                <ul>
+                    <li>Redação</li>
+                    <li>Pesquisa</li>
+                    <li>Gerente Geral</li>
+                </ul>
+                <h3>redes sociais</h3>
 
+            </div>
         </section>
 
-        <section class="row editorial"></section>
+
+
 
 
     </main>
@@ -138,9 +226,14 @@
     <p></p>
     </p>
     <footer class="container footer">
-
-        Copyright 2022 - Disciplina de desenvolvimento de interfaces Web - ICEI PUC Minas
-        <img src="/imagens/logo.jpg" alt="Logo Game Portal" class="logo">
+        <div class="row">
+            <div class="col-10 footer_txt">
+                Copyright 2022 - Disciplina de desenvolvimento de interfaces Web - ICEI PUC Minas
+            </div>
+            <div class="col-2">
+                <img src="/imagens/logo.jpg" alt="Logo Game Portal" class="logo">
+            </div>
+        </div>
     </footer>
 
 
